@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg, #159bf4, #bb24f7);
+  height: auto;
+}
+.heading{
+  text-align: center;
+  margin:  0;
+  color: white;
+  font-size: 80px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+#message-section{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 20px 0;
+}
+#input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+#input{
+  padding: 10px;
+  background: linear-gradient(135deg, #159bf4, #bb24f7);
+  width: 300px;
+  color: white;
+
+  border-radius: 5px;
+  border: 2px solid white;
+  outline: none;
+}
+.send{
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #159bf4, #bb24f7);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#input::-webkit-input-placeholder {
+  color: white; /* For WebKit browsers (Chrome, Safari, etc.) */
+}
+#input:-moz-placeholder {
+  color: white; /* For Firefox 18 and earlier */
+}
+#input::-moz-placeholder {
+  color: white; /* For Firefox 19+ */
+}
+#input:-ms-input-placeholder {
+  color: white; /* For Internet Explorer 10+ */
+}
